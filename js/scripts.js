@@ -12,9 +12,10 @@ $(document).ready(function(){
     $(".inputCity").text(enterCity);
     $(".inputZipcode").text(enterZipcode);
     $(".message").text(enterMessage);
-    //$("div.homepage").fadeOut();
-    $("div#reciept").fadeIn();
-    
+    $("div.homepage").fadeOut();
+    $("div.reciept").slideDown();
+    //$("")
+
 
   });
 });
