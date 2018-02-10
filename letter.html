@@ -11,44 +11,57 @@
   <body>
     <div class="container">
       <div class="well">
-        <p>This webpage is a letter made for Macy's customers to request a weekly fashion and style magazine of Macy's products. It takes your nae and address and sends you the weekly megazine on sales and other new arrival products in the store.</p>
-        <form class="form-horizontal">
-          <div class="form-group">
-            <label for="inputName" class="col-sm-2 control-label">Name</label>
-            <div class="col-sm-10">
-              <input type="name" class="form-control" id="inputName" placeholder="Name">
+        <h2>Macy's megazine request letter</h2>
+        <p>This webpage is a letter made for Macy's customers to request a weekly fashion and style magazine for lates updates on the Macy's products. It takes your name and address to send you the weekly megazine on sales and other new arrival products in the store as well as for online purchases. Dear customers feel free to send us a request for a free weekly fashion and life-style megazine.</p>
+        <div id="letter">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label for="inputName" class="col-sm-1 control-label">Name</label>
+              <div class="col-sm-11">
+                <input type="name" class="form-control" id="inputName" placeholder="Name">
+              </div>
             </div>
-          </div>
-          <div class="form-group">
-            <label for="inputadress" class="col-sm-2 control-label">Adress</label>
-            <div class="col-sm-10">
-              <input type="Adress" class="form-control" id="inputadress" placeholder="Adress">
+            <div class="form-group">
+              <label for="inputadress" class="col-sm-1 control-label">Adress</label>
+              <div class="col-sm-11">
+                <input type="Adress" class="form-control" id="inputadress" placeholder="Adress">
+              </div>
             </div>
-          </div>
-          <div class="form-group">
-            <label for="inputCity" class="col-sm-2 control-label">City</label>
-            <div class="col-sm-10">
-              <input type="city" class="form-control" id="inputCity" placeholder="City">
+            <div class="form-group">
+              <label for="inputCity" class="col-sm-1 control-label">City</label>
+              <div class="col-sm-11">
+                <input type="city" class="form-control" id="inputCity" placeholder="City">
+              </div>
             </div>
-          </div>
-          <div class="form-group">
-            <label for="inputZipcode" class="col-sm-2 control-label">Zipcode</label>
-            <div class="col-sm-10">
-              <input type="Zipcode" class="form-control" id="inputZipcode" placeholder="Zipcode">
+            <div class="form-group">
+              <label for="inputZipcode" class="col-sm-1 control-label">Zipcode</label>
+              <div class="col-sm-11">
+                <input type="Zipcode" class="form-control" id="inputZipcode" placeholder="Zipcode">
+              </div>
             </div>
-          </div>
-          <div class="form-group">
-            <label for="textarea" class="col-sm-2 control-label"></label>
-            <div class= "col-sm-10">
-              <textarea  type="text" class="form-control" rows="3" placeholder="text">Please write your message here</textarea>
+            <div class="form-group">
+              <label for="textarea" class="col-sm-1 control-label"></label>
+              <div class= "col-sm-11">
+                <textarea  type="text" class="form-control" rows="3" id="me" placeholder="text"></textarea>
+              </div>
             </div>
-          </div>
-          <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-10">
-              <button type="submit" class="btn btn-default">Submit</button>
+            <div class="form-group">
+              <div class="col-sm-offset-1 col-sm-11">
+                <button type="submit" class="btn btn-default">Submit</button>
+              </div>
             </div>
-          </div>
-        </form>
+            <div class="confirmation well" id="reciept">
+              <div class="header">
+                <h3> thank you and we will be sending you soon!</h3>
+                <h3>Here is your shipping confirmation:</h3>
+                <p><span class="Name"></span></p>
+                <p><span class="Adress"></span></p>
+                <p><span class="City"></span></p>
+                <p><span class="Zipcode"></span></p>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
   </body>

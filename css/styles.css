@@ -1,0 +1,15 @@
+#reciept{
+  display: none;
+}
+h1 {
+  font-family: fantasy;
+  color: black;
+  font-weight: bolder;
+  font-size: 60px;
+  text-shadow: 1px 1px black
+}
+p{
+  font-size: 16px;
+  color: black;
+  text-shadow: 1px 1px black;
+}
